@@ -8,7 +8,7 @@ import os
 from bot_logic import gen_pass, gen_emodji, flip_coin  # Импортируем функции из bot_logic
 
 # Замени 'TOKEN' на токен твоего бота
-bot = telebot.TeleBot("7883883379:AAEKepKo4fS201IjLAU-c3vX05P3DjPbfT4")
+bot = telebot.TeleBot("TOKEN")
 
 def get_class(model_path="Путь к модели", labels_path="путь к меткам", image_path="Путь к картинке"):    
     # Disable scientific notation for clarity
